@@ -1,7 +1,7 @@
 # EPOCH_main
 Used for analysis of EPOCH 1d PIC simulations. Old one was deleted.
 
-*batch_load        :: User interface with code. Locates simulation, reads and writes data to an class object called "Simulation". Calls heavily on list_new
+*[name1] batch_load        :: User interface with code. Locates simulation, reads and writes data to an class object called "Simulation". Calls heavily on list_new
 *list_new          :: Main hub of functions used for interacting with code. Rewritten due to batch processing. Updated sparcely. 
 *energy            :: Called from list_new, calls to calculate, reads and plots cahnge in energy densities through time
 *power             :: Called from list_new, calls to calculate, reads and plots power spectra
