@@ -10,4 +10,4 @@ Used for analysis of EPOCH 1d PIC simulations. Old one was deleted.
 * dist_fn           :: Redundant, absorbed into list_new
 * my_constants      :: Contains typical physical constants as well as common ion/electron mass ratios.
 
-Should at least have batch_load, list_new, power and energy in the same dir. Doesn't need to be in sim dir, can be anywhere so long as the sim dir is called correctly in batch_load. User should input values when prompted (adequate direction provided I think?). Should allow for most conditions and provide info on errors rather than just a flag.
+Should at least have batch_load, list_new, my_constants, power and energy in the same dir. Doesn't need to be in sim dir, can be anywhere so long as the sim dir is called correctly in batch_load. User should input values when prompted (adequate direction provided I think?). Should allow for most conditions and provide info on errors rather than just a flag.
