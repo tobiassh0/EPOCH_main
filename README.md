@@ -6,7 +6,7 @@ Used for analysis of EPOCH 1d PIC simulations. Old one was deleted.
 * energy            :: Called from list_new, calls to calculate, reads and plots cahnge in energy densities through time
 * power             :: Called from list_new, calls to calculate, reads and plots power spectra
 * functions_basic   :: Copied from previous PhD student. Contains basic list of functions for analysing (_small_) EPOCH simulations
-* charge_dens       :: Used for creating current density ($J$) and momentum ($p_{x,y,z}$) evolution plots
+* charge_dens       :: Used for creating current density ($J_{x,y,z}$) and momentum ($p_{x,y,z}$) evolution plots
 * dist_fn           :: Redundant, absorbed into list_new
 
 Should at least have batch_load, list_new, power and energy in the same dir. Doesn't need to be in sim dir, can be anywhere so long as the sim dir is called correctly in batch_load. User should input values when prompted (adequate direction provided I think?). Should allow for most conditions and provide info on errors rather than just a flag.
